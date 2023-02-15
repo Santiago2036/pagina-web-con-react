@@ -1,0 +1,69 @@
+.encabezado{
+    background-color: #2B3240;
+    color: white;
+    font-family:fantasy;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    padding: 100px;
+
+}
+
+.description{
+    justify-content: left;
+    align-items: left;
+    width:calc(100% / 2);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+.media{
+    justify-content: center;
+    align-items: center;
+    width:calc(100% / 2);
+    display: flex;
+
+}
+
+.title{
+    width: 100%;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+
+.sinopsis{
+    margin-bottom: 20px;
+}
+
+.watch-now{
+    background-color: #27CDF2;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: white;
+    height: 50px;
+    border: 2px solid #27CDF2;
+    font-size: small;
+}
+
+.play-list{
+    background-color: #2B3240;
+    border-radius: 5px;
+    border: 1px solid #BFBFBF;
+    color: white;
+    height: 50px;
+    font-size: small;
+}
+
+.media{
+    margin-left: 100px;
+    justify-content: left;
+    align-items: left;
+}
+
+.botones{
+    cursor: pointer;
+}
